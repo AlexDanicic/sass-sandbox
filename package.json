@@ -4,7 +4,7 @@
   "description": "SASS Practice\r *** Syntactically Awesome StyleSheets ***\r <br>\r Go to nodejs.org and install it...lts or current",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlexDanicic/sass-sandbox/issues"
   },
-  "homepage": "https://github.com/AlexDanicic/sass-sandbox#readme"
+  "homepage": "https://github.com/AlexDanicic/sass-sandbox#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
